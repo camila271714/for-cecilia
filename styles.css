@@ -181,3 +181,27 @@ body.light .top-bar {
     height: 24px;
   }
 }
+
+.spotify-banner {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0 6rem 0; /* extra bottom space above nav */
+  padding: 2rem;
+  background: radial-gradient(circle at center, rgba(30, 215, 96, 0.2), rgba(0, 0, 0, 0.9));
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  backdrop-filter: blur(8px); /* glassy effect */
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 0 20px rgba(30, 215, 96, 0.3); /* green glow */
+}
+
+.spotify-banner .banner-content {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
