@@ -71,22 +71,13 @@ body.light .top-bar {
 }
 
 .profile-pic {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
   border: 2px solid #1ed760; /* optional: green ring like Spotify */
-  transition: transform 0.2s ease;
 }
-
-.profile-pic:hover {
-  transform: scale(1.1);
-}
-
 
 /* Video grid */
 .video-grid {
